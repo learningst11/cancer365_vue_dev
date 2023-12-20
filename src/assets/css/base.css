@@ -1,0 +1,50 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700;800;900&display=swap');
+/**********************************************/
+* { padding: 0; margin: 0; box-sizing: border-box; font-family: 'Noto Sans KR', sans-serif; user-select: none;} 
+li { list-style: none; } 
+a { display: inline-block; text-decoration: none; cursor: pointer; } 
+span { display: inline-block; } 
+strong,
+b { font-weight: bold; } 
+strong { font-size: inherit; line-height: inherit; color: inherit; } 
+img { display: inline-block; border: none; object-fit: contain; } 
+button { cursor: pointer; border: none; background: transparent; outline: none; } 
+textarea { resize: none; } 
+table { width: 100%; border-spacing: 0; border-collapse: collapse; table-layout: fixed; } 
+tr>* { vertical-align: middle; word-break: keep-all; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; } 
+details { list-style: none; } 
+details::-webkit-details-marker { display: none}
+summary { cursor: pointer; } 
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button { -webkit-appearance: none; -moz-appearance: none; appearance: none; } 
+input[type="number"] { -moz-appearance: textfield; } 
+input[type="search"] { padding: 0 16px; } 
+/* input[type="checkbox"] { accent-color: #; }  */
+input::placeholder { color: rgba(0, 0, 0, 0.6); } 
+.mobile { display: none !important}
+
+/* table */
+table{ width: 100%;border-spacing: 0; border-collapse: collapse; table-layout: fixed; }
+tr > *{ height: 48px; text-align: center; vertical-align: middle; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+tr > th{  color: #909399; padding: 10px 0; border-bottom: 1px solid #E4E7ED; font-weight: 500; position: sticky; top: 0; background: #fff; position:relative;}
+tr > th img{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+tr > td{ color: #606266; padding: 0px 4px; border-bottom: 1px solid #E4E7ED;}
+
+/**********************************************/
+
+/* palette */
+
+
+/* ========= responsive =========*/
+@media screen and (max-width: 1024px){
+ .pc { display: none !important; } 
+
+ .mobile { display: block !important;} 
+
+ }
